@@ -30,15 +30,8 @@ st.set_page_config(
 BG_FILE = "rover_bg.png"
 
 # Your trained Fire + Smoke model
-HAZARD_MODEL_PATH = (
-    r"E:\MINEGUARD\AI\runs\detect\runs\fire_smoke"
-    r"\weights\best.pt"
-)
-
-# YOLO11n COCO model - Person detection
-PERSON_MODEL_PATH = (
-    r"E:\MINEGUARD\AI\yolo11n.pt"
-)
+HAZARD_MODEL_PATH = "models/best.pt"
+PERSON_MODEL_PATH = "AI/yolo11n.pt"
 
 # =========================================================
 # ESP32 SENSOR CONNECTION
