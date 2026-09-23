@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# YOLO training outputs
+AI/runs/
+
+# Training dataset
+AI/fire-smoke-detection.v1-v1.yolov11/
+
+*.vcd
+*.log
